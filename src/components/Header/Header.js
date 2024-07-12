@@ -12,10 +12,22 @@ const Header = () => {
     return (
         <header className={styles.header}>
             <div className={styles.container}>
-                <div className={styles.search}>
-
+                <div className={styles.searchArea}>
+                    <div className={styles.searchCircle}/>
+                    <div className={styles.searchMain}/>
+                    <div className={styles.searchBar}/>
+                        
+                    
                 </div>
                 <div className={styles.menu}>
+                    <nav>
+                        <ul>
+                            <li><a href="/">About</a></li>
+                            <li><a href="/">Collections</a></li>
+                            <li><a href="/">Service</a></li>
+                            <li><a href="/">Options</a></li>
+                        </ul>
+                    </nav>
 
                 </div>
                 <div className={styles.logo}>

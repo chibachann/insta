@@ -26,8 +26,9 @@
     --font-family-mincho: "Noto Serif JP", serif;
     
     /* color */
-    --color-primary: white;
-    --color-secondary: #111;
+    --color-primary: #E9EBEA;
+    --color-secondary: #CECFD1;
+    --color-thirdry: #141311;
     --color-text: black;
     --color-text-sub: white;
     --color-hover-text: gray;
